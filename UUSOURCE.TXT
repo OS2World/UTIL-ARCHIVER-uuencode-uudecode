@@ -1,0 +1,43 @@
+uuencode/uudecode for OS/2
+Compiled under Virtual Pascal/2 by Sean Dennis
+
+NOTE:
+  This is something that I picked up off of the Internet.
+  I simply recompiled it for Windows, OS/2 and DOS binaries... I
+  cannot guarentee that it will work.  These programs
+  are public domain.  I do hope these work for you as
+  they have come in quite handy for me.
+
+                  -- Sean Dennis (hausmaus@darktech.org)
+                     8 Feburary 2001
+
+  *** ORIGINAL DOCUMENTATION FOLLOWS***
+
+The following files are included in this zip file:
+
+uuencode.pas  TP source code for uuencoding of MS Dos binary files
+uudecode.pas  TP source code for uudecoding of MS Dos binary files
+uusource.doc  --> you are reading it
+
+Disclaimer: The two source files are provided without any guarantees implied
+            or stated. The code is given as is and any use is AT YOUR OWN RISK!
+            These files are submitted as public domain freeware.
+
+Brief description:
+            The original author of this code is unknown. The code is without
+            comments and was slightly hacked when I got it. After a few simple
+            changes from TP3.0? syntax and other strangely obvious problems -
+            I got the code to work. If someone wants to polish it up a bit and
+            tweak it - feel free. I am not the original author and have made
+            modifications myself.    
+
+ Usage:
+        uuencode <target> <destination>  converts binary to ascii
+
+        uudecode <target> --> the destination file is described in the ascii
+                              encoded file header
+
+Enjoy!    aturner@ecn.mass.edu
+
+
+
